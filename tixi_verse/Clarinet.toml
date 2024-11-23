@@ -5,6 +5,16 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.event-refund]
+path = 'contracts/event-refund.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.event-registration]
+path = 'contracts/event-registration.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.event-ticketing]
 path = 'contracts/event-ticketing.clar'
 clarity_version = 2
